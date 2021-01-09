@@ -1,0 +1,19 @@
+algoritmo "Salario_Professor"
+// Função : Calcula a area de uma circunferencia
+// Autor : Leandro
+// Data : 11/10/2020
+// Seção de Declarações 
+var
+HT: inteiro
+VH, PD, TD, SB, SL: real
+inicio
+// Seção de Comandos
+leia(HT)
+leia(VH)
+leia(PD)
+SB <- HT * VH
+TD <- (PD/100) * SB
+SL <- SB - TD
+escreva(SB)
+escreva(SL)
+fimalgoritmo
